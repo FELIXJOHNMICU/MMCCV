@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* MAIN MENU */
+
+#main-menu {
+ 	position: fixed;
+	top: 0;
+	width: 100%;
+ 	margin: 0;
+ 	padding: 0px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	list-style: none;
+	display: grid;
+ 	grid-gap: 0px;
+ 	grid-template-columns: repeat(4,1fr);
+} 
+ 
+#main-menu li {
+	padding: 15px;
+}
+
+/* BUTTON */
+
+.button {
+ 	background: #343d46;
+ 	color:  #fff5ee;
+ 	padding: 10px 25px;
+}
+
+.button:hover {
+ 	background: #343d46;
+ 	color: #bbbbbb;
+ 	transition: 0.5s;
+}
+
+/* CONTAINER */
+
+.container > div {
+	padding: 80px;
+}
+
+.container {
+	margin-top: 50px;
+	font-family: rockwell;
+	font-size: 50px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*CATEGORIES */
+
+#men {
+	background-image: url(../images/polo7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 1/3;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#men:hover {
+	background-image: url(../images/POLO4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#accessories {
+	background-image: url(../images/ACC2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 2/4;
+	grid-row: 1/2;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#accessories:hover {
+	background-image: url(../images/ACC1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#women {
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 4/5;
+	grid-row: 1/3;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#women:hover {
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#tops {
+	background-image: url(../images/TAP.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#tops:hover {
+	background-image: url(../images/TEP.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#bottoms {
+	background-image: url(../images/BUM.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 2/3;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#bottoms:hover {
+	background-image: url(../images/BIM.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#footwear {
+	background-image: url(../images/FOT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 1/3;
+	grid-row: 3/4;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#footwear:hover {
+	background-image: url(../images/WUT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#collections {
+	background-image: url(../images/WE.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column: 3/5;
+	grid-row: 3/4;
+	text-align: center;
+	transition: all .4s ease-out;
+}
+
+#collections:hover {
+	background-image: url(../images/WI.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 2px 2px 2px #000;
+}
